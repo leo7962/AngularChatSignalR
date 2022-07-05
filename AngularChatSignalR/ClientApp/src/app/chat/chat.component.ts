@@ -1,7 +1,5 @@
 import {Component, Inject, OnInit} from '@angular/core';
 import {HubConnection, HubConnectionBuilder} from "@microsoft/signalr";
-import {HttpClient} from "@angular/common/http";
-import * as signalR from '@microsoft/signalr';
 
 @Component({
   selector: 'app-chat',
